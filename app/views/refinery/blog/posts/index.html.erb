@@ -15,7 +15,7 @@
 	<% end if Refinery::Pages.default_parts.many? -%>
 	<%= render :partial => '/refinery/blog/shared/body_content_right' %>
 	<div class="hero-unit container">  
-
 	<%= render :partial => "/refinery/content_page", :locals => { :remove_automatic_sections => true } %>
 	<% content_for :stylesheets, stylesheet_link_tag('refinery/blog/frontend') %>
+		
 </div>
