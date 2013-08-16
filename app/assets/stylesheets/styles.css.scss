@@ -1,11 +1,13 @@
 @import "bootstrap";
 
-
+body{
+	background-color:#56A0D3;
+}
 #logo {
   float: left;
   margin-right: 10px;
   font-size: 1.7em;
-  color: white;
+  color: #56A0D3;
   text-transform: uppercase;
   letter-spacing: -1px;
   padding-top: 9px;
@@ -15,4 +17,7 @@
 		color: white;
 		text-decoration: none;
 	}
+}
+div.hero-unit{
+	width:650px;
 }
