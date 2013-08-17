@@ -1,8 +1,8 @@
 <aside id="comments">
   <h2><%= t('title', :scope => 'refinery.blog.posts.show.comments') %></h2>
 	<hr>
-	<div class="comment1">
   <% if (comments = @post.comments.approved).any? %>
+	<div class="comment1">
     <%= render :partial => "comment", :collection => comments %>
 	</div>
 		<hr>
