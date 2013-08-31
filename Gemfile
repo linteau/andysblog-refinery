@@ -48,7 +48,7 @@ gem 'refinerycms', '~> 2.0.0'
 # Specify additional Refinery CMS Extensions here (all optional):
 gem 'refinerycms-i18n', '~> 2.0.0'
  gem 'refinerycms-blog', '~> 2.0.0'
- gem 'refinerycms-videojs', git: 'git@github.com:adexin-team/refinerycms-videojs.git'
+ gem 'refinerycms-videojs'
  
 #  gem 'refinerycms-inquiries', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
